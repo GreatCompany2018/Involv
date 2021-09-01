@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "involv-accessibility-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/involvAccessibility/InvolvAccessibilityApplicationCustomizer.js",
+          "manifest": "./src/extensions/involvAccessibility/InvolvAccessibilityApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InvolvAccessibilityApplicationCustomizerStrings": "lib/extensions/involvAccessibility/loc/{locale}.js"
+  }
+}

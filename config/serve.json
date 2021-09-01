@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://greatcompanycognit.sharepoint.com/SitePages/Home.aspx",
+      "customActions": {
+        "2829381d-8b97-43f1-8b74-48470480ed20": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    },
+    "involvAccessibility": {
+      "pageUrl": "https://greatcompanycognit.sharepoint.com/SitePages/Home.aspx",
+      "customActions": {
+        "2829381d-8b97-43f1-8b74-48470480ed20": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}

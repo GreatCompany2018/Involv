@@ -1,0 +1,101 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/FabricCore.scss';
+.app {
+    .top {
+        height:60px;
+        text-align:center;
+        line-height:2.5;
+        font-weight:bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $ms-color-themePrimary;
+        color: $ms-color-white;
+    }
+    .bottom {
+        height:40px;
+        text-align:center;
+        line-height:2.5;
+        font-weight:bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $ms-color-themePrimary;
+        color: $ms-color-white;
+    }
+
+        .button {
+            font-weight: 500;
+            display: inline-block;
+            padding: .5rem;
+            background-color: #ddd;
+            color: #fff;
+            line-height: .7rem;
+            font-size: 1rem;
+            margin: 0 auto;
+            border: none;
+        }
+        
+        .button:nth-child(2) {
+            font-size: 1.5rem;
+            line-height: 1rem;
+        }
+
+        .button:nth-child(3) {
+            font-size: 2rem;
+            line-height: 1.4rem;
+        }
+
+        .flexContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items:flex-end;
+            width: 120px;
+            margin: 0 auto;
+            background-color: $ms-color-themePrimary;
+        } 
+
+        .active {
+            background-color: #444;
+        }
+
+        .alternateBtnWidth {
+            width: 130px;
+        }
+  }
+
+
+  :global .InvolvNormalMode {
+    div,span,a,p{
+        font-size: 15px ;
+   }
+}
+
+:global .InvolvLargeMode {
+    div,span,a,p{
+        font-size: 20px ;
+   }
+}
+
+:global .InvolvExtraLargeMode {
+    div,span,a,p{
+        font-size: 30px ;
+   }
+}
+
+
+:global .InvolvAlternateModetrue {
+        background-color: #000;
+    div,span,a,p {
+        background-color: #000;
+        color: yellow;
+   }
+}
+
+:global .InvolvAlternateModefalse {
+    background-color: transparent;
+    div,span,a,p {
+        background-color: transparent;
+        color: rgb(50, 49, 48);
+   }
+}
+
